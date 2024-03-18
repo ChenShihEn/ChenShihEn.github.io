@@ -1,0 +1,62 @@
+/*說明的word檔放在資料夾裡面*/
+h1 {
+    font-family: Rockwell;
+    background-color: #5499C7;
+    color: #EBF5FB;
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Rockwell;
+    background-color: #A9CCE3;
+    color: #1A5276;
+    padding: 20px;
+}
+
+h3 {
+    font-family: Rockwell;
+    color: #1A5276;
+}
+
+table {
+    border: 3px #4682b4 solid;
+    padding: 24px;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 20px;
+    color: #1A5276;
+    font-weight: bold;
+    padding: 24px;
+    border: 1px #4682b4 solid;
+}
+
+td {
+    padding: 24px;
+    color: #1A5276;
+    font-size: 20px;
+    border: 1px #4682b4 solid;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container {
+    max-width: 50%;
+}
+
+p {
+    padding: 5px;
+    color: #1A5276;
+}
+
+li {
+    font-size: 20px;
+    color: #1A5276;
+    font-weight: bold;
+}
