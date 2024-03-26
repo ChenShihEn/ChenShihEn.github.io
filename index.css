@@ -2,6 +2,80 @@ body {
     margin: 0;
 }
 
+/*說明的word檔放在資料夾裡面*/
+h1 {
+    font-family: "Changa One", sans-serif;
+    color: #2C3E50;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Changa One", sans-serif;
+    background-color: #A9CCE3;
+    color: #1A5276;
+    padding: 20px;
+}
+
+h3 {
+    font-family: "Changa One", sans-serif;
+    color: #1A5276;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 20px;
+    text-align: left;
+    color: #276881;
+    font-weight: bold;
+}
+
+th {
+    background-color: #9DBAD2;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+tr:nth-of-type(even) {
+    background-color: #E1F5FC;
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container {
+    max-width: 50%;
+}
+
+.table-container table td {
+    border: 1px solid black;
+    width: 33.33%;
+    height: 33.33%;
+}
+
+p {
+    color: #276881;
+    font-family: "Abril Fatface", serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 68px;
+    margin-top: 0
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,8 +95,11 @@ li a {
     diaplay: block;
     color: #EDFAFF;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     font-family: "Changa One", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 60px;
 }
 
 li a:hover:not(.active) {
